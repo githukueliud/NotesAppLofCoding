@@ -25,7 +25,4 @@ interface NoteDao {
     fun searchInNotesTitle(searchQuery: String): Flow<List<Note>>
 
 
-    @Query("SELECT * FROM Note")
-    suspend fun deleteAllNotes()
-
 }
