@@ -74,6 +74,7 @@ class NotesListFragment : Fragment(R.layout.fragment_notes_list) {
         binding.rvNotes.apply {
             layoutManager = LinearLayoutManager(context)
             adapter = notesAdaptor
+            addItemDecoration(VerticalItemDecoration(40))
         }
     }
 
