@@ -11,6 +11,7 @@ class NoteFragment : Fragment(R.layout.fragment_note) {
     private lateinit var binding: FragmentNoteBinding
 
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -26,5 +27,13 @@ class NoteFragment : Fragment(R.layout.fragment_note) {
     }
 
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
 
     }
+
+
+
+
+}
