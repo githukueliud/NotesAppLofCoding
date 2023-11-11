@@ -1,3 +1,2 @@
-# NotesAppLofCoding
-This repository is for the Notes app tutorial
-https://www.youtube.com/watch?v=DxkAfObVjOs
+
+Notes app built to implement room db, and the various crud methods i.e insert, update, delete, and get
